@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #208bbf;
+}
+.container{
+    padding: 15px 9rem;
+}
+a{
+    text-decoration: none;
+}
+.header-all{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-all  a{
+    margin-left: 15px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+}
+.header-all .logo{
+    padding: 0 15px;
+    width: 15%;
+}
+.header-all .logo img{
+    width: 100%;
+}
+.header-all .appointment a{
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    background-color: #fff;
+    border-radius: 30px;
+    color: black;
+}
+.slider-all{
+    padding: 9rem;
+    text-align: center;
+}
+
+.slider-all h1{
+    text-align: center;
+    font-size: 162px;
+    z-index: -1;
+    position: absolute;
+    right: 26%;
+    color: #ffffff;
+    text-shadow: 2px 3px 20px #a5a5a5;
+}
+.slider-all .photo{
+    position: relative;
+    text-align: center;
+}
+.slider-all .text p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.slider-all .text h2{
+    color: grey;
+}
+.slider-all .btn{
+    width: 27%;
+    margin: auto;  
+    margin-top: 20px;  
+}
+.slider-all .btn button{
+    padding: 20px 37px;
+    background-color: #208bbf;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+#prods .prods-all .bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#prods .prods-all .bottom .box {
+    width: 30%;
+}
+#prods .prods-all .bottom .top img{
+    width: 100%;
+    vertical-align: bottom;
+}
+#prods .prods-all .bottom .box{
+    border: 1px solid #F2F2F2;
+    padding: 2rem;
+    background-color: #F2F2F2;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#prods .prods-all .top{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+#prods .top .text{
+    position: relative;
+}
+#prods .prods-all .top p{
+   
+    font-size: 30px;
+    
+}
+
+#prods .btn{
+    text-align: center;
+    margin: 15px 0;
+}
+#prods button{
+    background-color: #208bbf;
+    border:none;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+#Quality{
+    background-image:url(https://clinika.modeltheme.com/wp-content/uploads/2020/11/Clinika-Gel_banner.jpg?id=22244);
+    padding: 9rem;
+    background-position: center;
+    background-size: cover;
+}
+#Quality .text {
+    color: #fff;
+    
+    text-align: center;
+    width: 43%;
+}
+#Quality .text h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+#Quality .btn{
+    width: 40%;
+    text-align: center;
+    margin-top: 40px;
+}
+#Quality .btn button{
+    padding: 20px 37px;
+    background-color: #fff;
+    color: #208bbf;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
